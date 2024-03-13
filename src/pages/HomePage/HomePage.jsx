@@ -1,3 +1,11 @@
-export default function HomePage () {
-    return <h1>Home Page</h1>
-};
+import "./HomePage.scss";
+
+export default function HomePage() {
+  return (
+    <>
+      <header className="header">
+        <h1 className="header__header">RR ToneWorks!</h1>
+      </header>
+    </>
+  );
+}
